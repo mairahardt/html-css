@@ -19,7 +19,7 @@
 }
 html, body{
     min-height: 100vh; /* 100% da altura do site */
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.973);
     font-family: var(--font1);
 }
 
@@ -61,20 +61,41 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    
+    padding-bottom: 2em; /* espaço tipo br */
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(58, 57, 57) ;
+    background-color: rgba(58, 57, 57, 0.116) ;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404) ;
+    background-attachment: fixed; /* efeito da rolagem */
 
 }
 
 section.imagem > p { /* caixa dentro de caixa */
     display: inline-block;
-    background-color: rgb(46, 45, 45);
+    padding: 5px;
+    background-color: rgba(7, 7, 7, 0.301);
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+
 }
 
 footer {
