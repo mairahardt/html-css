@@ -6,42 +6,42 @@
 }
 
 html, body{
-    min-height: 100vh;
+    min-height: 100vh; /* 100% da altura do site */
     background-color: darkgray;
 }
 
 header {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center; /* título no centro */
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 50px; /*espaço do título com a base do site */
     font-variant: small-caps; /*deixa as letras maiúsculas*/
 
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 50px; /* espaço na parte de baixo do título */
 
 }
 
-a {
+a { /* link */
     color: white;
-    text-decoration: none;
-    font-weight: bolder;
+    text-decoration: none; /* tirar o sublinhado */
+    font-weight: bolder; /*negrito*/
 }
 
 header a:hover, footer a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /* sublinha quando passo o mouse por cima da palavra */
 }
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    line-height: 2em; /* espaçamento entre as linhas */
+    padding-left: 30px; /* espaço tipo parágrafo */
 }
 
 section.normal {
@@ -55,7 +55,7 @@ section.imagem {
 
 }
 
-section.imagem > p {
+section.imagem > p { /* caixa dentro de caixa */
     width: 400px;
     background-color: rgb(46, 45, 45);
 }
